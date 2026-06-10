@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Meghan Schrotenboer · Healthcare &amp; Life Sciences</title>
+<meta name="description" content="I build trust inside the most regulated organizations in healthcare and turn it into commercial outcomes." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --midnight:#141A3A;
+  --navy:#1F2752;
+  --indigo:#3E4380;
+  --violet:#8678B8;
+  --lavender:#B3A8D4;
+  --parchment:#F4EEDF;
+  --parchment-deep:#EDE4CE;
+  --gold:#C5A028;
+  --gold-light:#E6C76A;
+  --ink:#2A2F55;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Newsreader',Georgia,serif;
+  background:var(--midnight);
+  color:var(--parchment);
+  line-height:1.65;
+  font-weight:300;
+  -webkit-font-smoothing:antialiased;
+}
+::selection{background:var(--gold);color:var(--midnight)}
+
+.label{
+  font-family:'Cormorant Garamond',serif;
+  font-weight:500;
+  letter-spacing:.42em;
+  text-transform:uppercase;
+  font-size:.78rem;
+}
+h1,h2,h3{font-family:'Cormorant Garamond',serif;font-weight:500;line-height:1.18}
+em{font-style:italic}
+
+section{position:relative;overflow:hidden}
+.inner{max-width:880px;margin:0 auto;padding:0 28px}
+
+/* ---------- reveal ---------- */
+.rv{opacity:0;transform:translateY(26px);transition:opacity .9s ease,transform .9s ease}
+.rv.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .rv{opacity:1;transform:none;transition:none}
+  html{scroll-behavior:auto}
+}
+
+/* ---------- hero ---------- */
+.hero{
+  min-height:100svh;
+  display:flex;align-items:center;justify-content:center;text-align:center;
+  background:
+    radial-gradient(ellipse 120% 80% at 50% 115%, rgba(134,120,184,.32), transparent 60%),
+    linear-gradient(180deg,#10142E 0%, var(--midnight) 45%, #1B2148 100%);
+}
+#stars{position:absolute;inset:0;pointer-events:none}
+.hero .inner{position:relative;z-index:2;padding-top:8vh;padding-bottom:8vh}
+.hero .label{color:var(--gold-light)}
+.hero h1{
+  font-size:clamp(2.1rem,5.4vw,3.9rem);
+  margin:1.6rem auto 1.4rem;max-width:18ch;
+  color:var(--parchment);
+}
+.hero h1 .gilt{color:var(--gold-light);font-style:italic}
+.hero .sub{
+  color:var(--lavender);font-size:clamp(1rem,1.6vw,1.18rem);
+  max-width:48ch;margin:0 auto;
+}
+.hero-rule{width:64px;height:1px;background:var(--gold);margin:2rem auto 0;position:relative}
+.hero-rule::after{
+  content:"";position:absolute;left:50%;top:50%;width:7px;height:7px;
+  transform:translate(-50%,-50%) rotate(45deg);background:var(--gold);
+}
+.scrollcue{
+  position:absolute;bottom:34px;left:50%;transform:translateX(-50%);
+  color:var(--lavender);font-size:.72rem;letter-spacing:.35em;text-transform:uppercase;
+  font-family:'Cormorant Garamond',serif;opacity:.75;z-index:2;
+}
+
+/* ---------- seats ---------- */
+.seats{background:var(--parchment);color:var(--ink);padding:110px 0 120px}
+.seats .label{color:var(--gold);display:block;text-align:center}
+.seats h2{
+  text-align:center;font-size:clamp(1.7rem,3.6vw,2.5rem);
+  margin:1.1rem auto 0;max-width:24ch;color:var(--navy);
+}
+.seats .kicker{
+  text-align:center;max-width:52ch;margin:1.2rem auto 0;
+  font-size:1.08rem;color:#4d527e;font-style:italic;
+}
+.seatgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;margin-top:64px}
+.seat{
+  background:rgba(255,255,255,.55);
+  border:1px solid rgba(197,160,40,.35);
+  padding:34px 28px 38px;position:relative;
+}
+.seat::before{
+  content:"";position:absolute;top:0;left:28px;right:28px;height:2px;background:var(--gold);
+}
+.seat .star{color:var(--gold);font-size:1rem;letter-spacing:.2em}
+.seat h3{font-size:1.45rem;color:var(--navy);margin:.7rem 0 .15rem}
+.seat .org{
+  font-family:'Cormorant Garamond',serif;letter-spacing:.18em;text-transform:uppercase;
+  font-size:.72rem;color:var(--gold);margin-bottom:1rem;font-weight:600;
+}
+.seat p{font-size:.98rem;color:#3c4070;font-weight:400}
+@media(max-width:760px){.seatgrid{grid-template-columns:1fr}}
+
+/* ---------- arc ---------- */
+.arc{background:linear-gradient(180deg,var(--navy) 0%,var(--midnight) 100%);padding:120px 0 140px}
+.arc .label{color:var(--gold-light);display:block;text-align:center}
+.arc h2{text-align:center;font-size:clamp(1.7rem,3.6vw,2.5rem);margin:1.1rem auto 0;color:var(--parchment)}
+.arc .kicker{text-align:center;color:var(--lavender);font-style:italic;margin:1rem auto 0;max-width:48ch}
+.chapters{position:relative;margin-top:80px}
+.spine{
+  position:absolute;left:19px;top:14px;bottom:14px;width:0;
+  border-left:1px dashed rgba(197,160,40,.55);
+}
+.chapter{position:relative;padding:0 0 72px 72px}
+.chapter:last-child{padding-bottom:0}
+.node{
+  position:absolute;left:0;top:2px;width:40px;height:40px;display:flex;
+  align-items:center;justify-content:center;
+}
+.node svg{width:26px;height:26px;filter:drop-shadow(0 0 8px rgba(230,199,106,.55))}
+.chapter .when{
+  font-family:'Cormorant Garamond',serif;letter-spacing:.22em;text-transform:uppercase;
+  font-size:.72rem;color:var(--gold-light);font-weight:600;
+}
+.chapter h3{font-size:clamp(1.35rem,2.6vw,1.8rem);color:var(--parchment);margin:.4rem 0 .9rem}
+.chapter p{color:#CFC9E6;max-width:62ch;font-weight:300;font-size:1.02rem}
+.chapter p + p{margin-top:.9rem}
+.storycard{
+  margin-top:1.6rem;border:1px solid var(--gold);background:rgba(197,160,40,.06);
+  padding:26px 26px 28px;max-width:62ch;position:relative;
+}
+.storycard::before{
+  content:"✦";position:absolute;top:-13px;left:24px;background:var(--midnight);
+  color:var(--gold-light);padding:0 10px;font-size:.95rem;
+}
+.storycard .sc-label{
+  font-family:'Cormorant Garamond',serif;letter-spacing:.3em;text-transform:uppercase;
+  font-size:.7rem;color:var(--gold-light);font-weight:600;display:block;margin-bottom:.7rem;
+}
+.storycard p{color:#E4DFC9;font-size:.99rem}
+
+/* ---------- numbers ---------- */
+.numbers{background:var(--indigo);padding:96px 0 104px;
+  background:
+    radial-gradient(ellipse 90% 70% at 50% -10%, rgba(179,168,212,.25), transparent 60%),
+    var(--indigo);
+}
+.numbers .label{color:var(--gold-light);display:block;text-align:center;margin-bottom:48px}
+.statgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:42px 26px;text-align:center}
+.stat .big{
+  font-family:'Cormorant Garamond',serif;font-weight:500;
+  font-size:clamp(2.2rem,4.6vw,3.3rem);color:var(--gold-light);line-height:1;
+}
+.stat .small{
+  margin-top:.55rem;color:var(--lavender);font-size:.85rem;
+  letter-spacing:.12em;text-transform:uppercase;font-family:'Cormorant Garamond',serif;font-weight:500;
+}
+@media(max-width:760px){.statgrid{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- principles ---------- */
+.principles{background:var(--parchment);color:var(--ink);padding:110px 0 130px}
+.principles .label{color:var(--gold);display:block;text-align:center}
+.principles h2{text-align:center;font-size:clamp(1.7rem,3.6vw,2.5rem);margin:1.1rem auto 64px;color:var(--navy)}
+.prin{
+  border-top:1px solid rgba(197,160,40,.5);
+  padding:42px 0 46px;display:grid;grid-template-columns:90px 1fr;gap:24px;
+}
+.prin:last-child{border-bottom:1px solid rgba(197,160,40,.5)}
+.prin .mark{color:var(--gold);font-size:1.5rem;padding-top:.35rem}
+.prin h3{font-size:clamp(1.3rem,2.4vw,1.7rem);color:var(--navy);margin-bottom:.8rem;max-width:26ch}
+.prin p{color:#3c4070;font-weight:400;max-width:60ch;font-size:1.01rem}
+@media(max-width:640px){.prin{grid-template-columns:1fr;gap:8px}}
+
+/* ---------- zenith ---------- */
+.zenith{
+  min-height:100svh;display:flex;align-items:center;text-align:center;
+  background:
+    radial-gradient(ellipse 130% 62% at 50% 112%, rgba(230,199,106,.55), rgba(230,199,106,0) 58%),
+    radial-gradient(ellipse 100% 50% at 50% 100%, rgba(134,120,184,.5), transparent 65%),
+    linear-gradient(180deg,var(--midnight) 0%, #2B2C63 46%, #4E4584 74%, #7E6794 100%);
+  padding:130px 0 150px;
+}
+#zstars{position:absolute;inset:0;pointer-events:none}
+.zenith .inner{position:relative;z-index:2}
+.zmark{margin:0 auto 2.4rem;width:96px;height:96px;opacity:.95}
+.zenith h2{
+  font-size:clamp(2rem,5vw,3.4rem);color:var(--parchment);
+  font-style:italic;font-weight:500;
+}
+.zenith p{
+  color:#EFE9D6;max-width:54ch;margin:1.5rem auto 0;
+  font-size:clamp(1rem,1.7vw,1.15rem);
+}
+.zenith p.final{color:var(--gold-light)}
+
+/* ---------- footer ---------- */
+footer{background:#0F1330;padding:54px 0 64px;text-align:center}
+footer .name{
+  font-family:'Cormorant Garamond',serif;font-size:1.25rem;color:var(--parchment);
+  letter-spacing:.06em;
+}
+footer .role{color:var(--lavender);font-size:.9rem;margin-top:.3rem}
+footer .meta{
+  margin-top:1.4rem;color:#8E86B5;font-size:.8rem;
+  letter-spacing:.18em;text-transform:uppercase;font-family:'Cormorant Garamond',serif;
+}
+footer a{color:var(--gold-light);text-decoration:none;border-bottom:1px solid rgba(230,199,106,.4)}
+footer a:focus-visible,a:focus-visible{outline:2px solid var(--gold-light);outline-offset:3px}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+  <canvas id="stars"></canvas>
+  <div class="inner">
+    <div class="label rv">Meghan Schrotenboer &nbsp;·&nbsp; Healthcare &amp; Life Sciences</div>
+    <h1 class="rv">I build trust inside the most regulated organizations in healthcare, and turn it into <span class="gilt">commercial outcomes</span>.</h1>
+    <p class="sub rv">HCLS Practice Lead at evolv Consulting. Fifteen years across pharma, provider, and payer. Both sides of the table.</p>
+    <div class="hero-rule rv"></div>
+  </div>
+  <div class="scrollcue">Begin</div>
+</section>
+
+<!-- THREE SEATS -->
+<section class="seats">
+  <div class="inner">
+    <span class="label rv">The Three Seats</span>
+    <h2 class="rv">Most people selling into healthcare have sat in none of the buyer's chairs.</h2>
+    <p class="kicker rv">I have sat in all three.</p>
+    <div class="seatgrid">
+      <div class="seat rv">
+        <div class="star">✦</div>
+        <h3>Pharma</h3>
+        <div class="org">Abraxas · Pfizer Program</div>
+        <p>Non-clinical study records under GxP, ITAR, export control, and data privacy. Segregating records exposed to beta-lactams. Hosting second-party client audits on our floor. Right hand to an owner, scaling a business where the compliance program was the competitive advantage.</p>
+      </div>
+      <div class="seat rv">
+        <div class="star">✦</div>
+        <h3>Provider</h3>
+        <div class="org">Corewell Health</div>
+        <p>Nine years inside a $14B integrated health system. Advisor to the Office of the Chief Analytics Officer through one of the largest health system mergers in the country. On the launch team that brought Snowflake into the enterprise. I was the buyer.</p>
+      </div>
+      <div class="seat rv">
+        <div class="star">✦</div>
+        <h3>Payer</h3>
+        <div class="org">Priority Health</div>
+        <p>Lead Product Manager for member digital experience and the cost estimator: price transparency at the moment regulation made it existential. Product fluency on the plan side of the industry, where the member is the customer.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THE ARC -->
+<section class="arc">
+  <div class="inner">
+    <span class="label rv">The Arc</span>
+    <h2 class="rv">Four chapters. One through line.</h2>
+    <p class="kicker rv">Earn the room. Find the pain. Convert it.</p>
+
+    <div class="chapters">
+      <div class="spine" aria-hidden="true"></div>
+
+      <div class="chapter rv">
+        <div class="node" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 1 L13.8 9.2 L22 12 L13.8 14.8 L12 23 L10.2 14.8 L2 12 L10.2 9.2 Z" fill="#E6C76A"/></svg></div>
+        <div class="when">Chapter One · Pharma</div>
+        <h3>Where compliance became the product</h3>
+        <p>I learned early that in regulated industries, trust is the product. GxP, ITAR, export control, data privacy, client audits hosted on our floor. We scaled the business on the strength of a compliance program our competitors could not match, and we wanted healthcare next.</p>
+        <p>From that seat I could see an enormous addressable market I could not access from the outside. I did not have an investable narrative. Yet.</p>
+      </div>
+
+      <div class="chapter rv">
+        <div class="node" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 1 L13.8 9.2 L22 12 L13.8 14.8 L12 23 L10.2 14.8 L2 12 L10.2 9.2 Z" fill="#E6C76A"/></svg></div>
+        <div class="when">Chapter Two · Provider</div>
+        <h3>The deliberate insider</h3>
+        <p>So I joined the buyer. Nine years inside a $14B health system, across nearly every discipline. I found the real pain: no universal patient identifier, operating models running on spreadsheets, nurse staffing that could not flex to seasonal acuity, and beneath the entire BI layer, the thing actually missing. Real, governed data.</p>
+        <p>These were problems technology alone could not resolve, because the mountain was people and process. Ownership. Swim lanes. Agile trains driving toward business value with no business users aboard. I helped ten leaders in the CFO organization build executive KPIs, and I learned to find the growers: the people inside an organization who can carry a strategy further than any roadmap.</p>
+        <div class="storycard">
+          <span class="sc-label">A story I tell often</span>
+          <p>A leading genetic researcher working on pediatric disease classification put in a request. Triaging it, I realized our geofence policies were blocking every inbound and outbound message from colleagues around the world. Science, stopped by a firewall rule. I listened, traced it, and became the change agent who solved it while holding the line on NIST. That is what captive listening looks like in practice.</p>
+        </div>
+      </div>
+
+      <div class="chapter rv">
+        <div class="node" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 1 L13.8 9.2 L22 12 L13.8 14.8 L12 23 L10.2 14.8 L2 12 L10.2 9.2 Z" fill="#E6C76A"/></svg></div>
+        <div class="when">Chapter Three · The Bridge</div>
+        <h3>When the work reached consulting grade</h3>
+        <p>Along the way I worked with partners from Big Four to boutique, and when my work reached consulting grade, the partner ecosystem came to me. At Hakkōda I held a delivery seat and ran a commercial motion from inside it: fully billable across concurrent client projects while generating pipeline, selling Snowflake expansion inside client QBRs, and driving a fivefold increase in channel activity velocity.</p>
+      </div>
+
+      <div class="chapter rv">
+        <div class="node" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M12 1 L13.8 9.2 L22 12 L13.8 14.8 L12 23 L10.2 14.8 L2 12 L10.2 9.2 Z" fill="#E6C76A"/></svg></div>
+        <div class="when">Chapter Four · The Builder</div>
+        <h3>From insight to a practice of my own</h3>
+        <p>I wanted the engagements that actually drive adoption and transformation, so I went to learn the craft of management consulting and built a healthcare and life sciences practice from zero. Over $1.1M sold in year one, with a multi-million dollar pipeline behind it. Practice P&amp;L, Tier-1 deal ownership, co-sell motions with Snowflake leadership, and repeatable offerings mapped to operating needs I lived from the buyer's chair.</p>
+        <p>This is also where the AI work got real. I built a demo engine on Snowflake Intelligence and Cortex: agentic, AI-powered narratives for healthcare accounts, from clinical decision support to AI-enabled BI, each one anchored to a funded business pain rather than a science project. And I stopped building alone. I hired, staffed engagements, paired a dedicated client partner with the practice, and enabled sellers across the ecosystem. The practice runs on we, not me.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NUMBERS -->
+<section class="numbers">
+  <div class="inner">
+    <span class="label rv">In Numbers</span>
+    <div class="statgrid">
+      <div class="stat rv"><div class="big" data-count="1.1" data-prefix="$" data-suffix="M">$1.1M</div><div class="small">Year-one practice revenue</div></div>
+      <div class="stat rv"><div class="big" data-count="5" data-suffix="x">5x</div><div class="small">Channel activity velocity</div></div>
+      <div class="stat rv"><div class="big" data-count="100" data-suffix="%">100%</div><div class="small">Utilization while building pipeline</div></div>
+      <div class="stat rv"><div class="big" data-count="9">9</div><div class="small">Years inside the buyer</div></div>
+      <div class="stat rv"><div class="big" data-count="14" data-prefix="$" data-suffix="B">$14B</div><div class="small">Health system advised</div></div>
+      <div class="stat rv"><div class="big" data-count="3">3</div><div class="small">Buyer seats held</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRINCIPLES -->
+<section class="principles">
+  <div class="inner">
+    <span class="label rv">How I Work</span>
+    <h2 class="rv">Three principles, learned the long way.</h2>
+
+    <div class="prin rv">
+      <div class="mark" aria-hidden="true">✦</div>
+      <div>
+        <h3>Deliver visible value incrementally. Not roadmaps.</h3>
+        <p>Healthcare has roadmap fatigue. Every executive owns a drawer of transformation decks that never shipped. I build in increments people can see, because trust compounds on delivered things, and expansion follows proof.</p>
+      </div>
+    </div>
+
+    <div class="prin rv">
+      <div class="mark" aria-hidden="true">✦</div>
+      <div>
+        <h3>Be a captive listener.</h3>
+        <p>Listen deeply enough to find the threads connecting the neural fibers of an organization. The app owner who will not release the data. The admin team that keeps engineers in a sandbox. Those are not blockers. They are the map. Adoption stalls on people and politics long before it stalls on technology, and you can only solve what you have truly heard.</p>
+      </div>
+    </div>
+
+    <div class="prin rv">
+      <div class="mark" aria-hidden="true">✦</div>
+      <div>
+        <h3>Those who deeply understand the buyer have been the buyer.</h3>
+        <p>I did not know what to sell until I sat on the inside. Nine years in the buyer's chair taught me what an investable narrative looks like from the other side of the table: where budgets actually live, which pains have funding behind them, and who will carry the change. I do not study markets from a distance. I go live inside them.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ZENITH -->
+<section class="zenith">
+  <canvas id="zstars"></canvas>
+  <div class="inner">
+    <svg class="zmark rv" viewBox="0 0 100 100" fill="none" aria-hidden="true">
+      <circle cx="50" cy="50" r="34" stroke="#E6C76A" stroke-width="1" stroke-dasharray="2 4"/>
+      <line x1="50" y1="2" x2="50" y2="22" stroke="#E6C76A" stroke-width="1"/>
+      <line x1="50" y1="78" x2="50" y2="98" stroke="#E6C76A" stroke-width="1"/>
+      <line x1="2" y1="50" x2="22" y2="50" stroke="#E6C76A" stroke-width="1"/>
+      <line x1="78" y1="50" x2="98" y2="50" stroke="#E6C76A" stroke-width="1"/>
+      <path d="M50 38 L52.4 47.6 L62 50 L52.4 52.4 L50 62 L47.6 52.4 L38 50 L47.6 47.6 Z" fill="#E6C76A"/>
+    </svg>
+    <h2 class="rv">We're reaching a zenith.</h2>
+    <p class="rv">Frontier AI and healthcare are arriving at their highest point in the same moment. A technology powerful enough to matter is meeting the industry where it matters most.</p>
+    <p class="rv">What happens next is not automatic. AI must be carefully shaped by its builders, grounded in regulated reality and in trust earned the long way, then passed back to humanity as something worthy of it.</p>
+    <p class="rv">Shaping it carefully is not new work to me. It is the discipline I have practiced for fifteen years: advancing the mission without bending the control framework. GxP, NIST, HIPAA. The researcher unblocked while the standard held. Regulated industries already know how to adopt powerful things responsibly, and AI in healthcare will be carried by people who speak that language natively.</p>
+    <p class="final rv">Every chapter prepared me for this one. The audit floor where trust became the product. The buyer's chair where I learned what actually needs solving. The practice built from zero, where insight became outcomes. The work was always pointing here.</p>
+  </div>
+</section>
+
+<footer>
+  <div class="inner">
+    <div class="name">Meghan Schrotenboer</div>
+    <div class="role">HCLS Practice Lead · evolv Consulting</div>
+    <div class="meta">North Carolina &nbsp;·&nbsp; Dual US &amp; Irish Citizen</div>
+    <div class="meta" style="margin-top:.8rem">If something here resonates, say hello. &nbsp; <a href="mailto:meghan.schrotenboer@gmail.com">Email</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/meghanjschrotenboer" rel="me">LinkedIn</a></div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // reveal on scroll
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('on'); io.unobserve(e.target);} });
+  },{threshold:.15});
+  document.querySelectorAll('.rv').forEach(function(el){ io.observe(el); });
+
+  // starfields
+  function starfield(id, density, twinkle){
+    var c = document.getElementById(id); if(!c) return;
+    var ctx = c.getContext('2d'), stars = [];
+    function size(){
+      var s = c.parentElement.getBoundingClientRect();
+      c.width = s.width * devicePixelRatio; c.height = s.height * devicePixelRatio;
+      c.style.width = s.width+'px'; c.style.height = s.height+'px';
+      stars = [];
+      var n = Math.floor(s.width * s.height / density);
+      for(var i=0;i<n;i++){
+        stars.push({x:Math.random()*c.width, y:Math.random()*c.height,
+          r:(Math.random()*1.1+.3)*devicePixelRatio, p:Math.random()*Math.PI*2,
+          s:.4+Math.random()*.6});
+      }
+    }
+    function draw(t){
+      ctx.clearRect(0,0,c.width,c.height);
+      stars.forEach(function(st){
+        var a = twinkle && !reduced ? st.s*(0.55+0.45*Math.sin(t/1400+st.p)) : st.s*.8;
+        ctx.globalAlpha = a;
+        ctx.fillStyle = '#E6C76A';
+        ctx.beginPath(); ctx.arc(st.x,st.y,st.r,0,Math.PI*2); ctx.fill();
+      });
+      ctx.globalAlpha = 1;
+      if(twinkle && !reduced) requestAnimationFrame(draw);
+    }
+    size(); window.addEventListener('resize', size);
+    if(twinkle && !reduced){ requestAnimationFrame(draw); } else { draw(0); }
+  }
+  starfield('stars', 9000, true);
+  starfield('zstars', 16000, true);
+
+  // count-up stats
+  var fmt = function(el, v){
+    var p = el.dataset.prefix||'', s = el.dataset.suffix||'';
+    var dec = (el.dataset.count.indexOf('.')>-1)?1:0;
+    el.textContent = p + v.toFixed(dec) + s;
+  };
+  var statIO = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(!e.isIntersecting) return;
+      var el = e.target, target = parseFloat(el.dataset.count);
+      statIO.unobserve(el);
+      if(reduced){ fmt(el, target); return; }
+      var start = null;
+      function step(ts){
+        if(!start) start = ts;
+        var k = Math.min((ts-start)/1300, 1);
+        k = 1 - Math.pow(1-k, 3);
+        fmt(el, target*k);
+        if(k<1) requestAnimationFrame(step);
+      }
+      requestAnimationFrame(step);
+    });
+  },{threshold:.5});
+  document.querySelectorAll('.stat .big').forEach(function(el){ statIO.observe(el); });
+})();
+</script>
+</body>
+</html>
