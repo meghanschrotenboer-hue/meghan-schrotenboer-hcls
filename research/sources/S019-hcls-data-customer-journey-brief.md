@@ -12,7 +12,7 @@ value_chain: [provider, manufacturing-supply, discovery, clinical, commercial-me
 intention_matrix: [augment-optimize, automate-optimize]
 stack_layer: [data-semantics, governance-trust, workflow-ux, commercial-model]
 players: [buyer, services, isv]
-themes: [T1, T2, T3, T6, T8]
+themes: [T1, T2, T3, T6, T8, T9]
 signal: medium                    # strong frameworks; case claims need verification against cited sources
 ---
 

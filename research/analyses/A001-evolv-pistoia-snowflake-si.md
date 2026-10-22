@@ -30,7 +30,7 @@
 
 | Risk | Why it matters | Mitigation |
 |---|---|---|
-| **No evidence Snowflake is a Pistoia member or project participant** (searches found none) | You can't borrow Snowflake's standing; you'd be building it | Contribute as evolv. Treat "bring Snowflake into Pistoia" as a later, optional move |
+| **No evidence Snowflake is a Pistoia member or project participant** (searches found none). Its top HCLS SIs and data partners *are* in Pistoia, though (Accenture, Cognizant, ZS, Benchling, IQVIA; see [A002](A002-pistoia-vs-snowflake-si-world.md)) | You can't borrow Snowflake's standing, and large SIs already straddle both worlds | Contribute as evolv, narrower and deeper; treat "bring Snowflake into Pistoia" as a later, optional move |
 | **Pistoia is vendor-neutral and precompetitive.** One stated member benefit is "creating consensus-based requirements for key vendors" | A platform pitch inside a project would damage credibility | Platform-neutral contributions; any Snowflake work framed as *one* reference implementation of an open pattern |
 | **Ontology authoring runs on semantic-web tooling** (OWL, LinkML, RDF), not data warehouses | Snowflake isn't where PGO-T or ClinOps is *written* | Contribute where standards **land**: data products, tagging, governance, sharing, AI, value measurement |
 | **Bigger consultancies are already there** (Accenture, ZS, Thoughtworks, Cognizant, EPAM) | evolv competes for attention and roles | Pick one narrow, under-served lane and own it |

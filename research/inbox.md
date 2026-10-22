@@ -52,6 +52,13 @@ These are already in the library as partial notes and will be upgraded to full r
 - PGO-T repository (public GitHub, can be read in full here): [Pistoia-Alliance-PGO](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO) and the [LinkML paper](https://ceur-ws.org/Vol-4196/paper_3.pdf)
 - Snowflake life-sciences announcements (Sanofi, eClinical Solutions) from primary sources
 
+**For A002 (Pistoia × Snowflake convergence)**
+- Snowflake engineering blog, [Ontology in Snowflake: Building Cortex Agents](https://www.snowflake.com/en/blog/engineering/ontology-grounded-cortex-agents/): verify the biomedical benchmark and which ontology was used
+- Open Semantic Interchange spec and roadmap: is ontology planned? Any life-sciences participants?
+- Current IQVIA–Snowflake relationship (2025–26) and whether BI's IQVIA DaaS+ runs on Snowflake
+- Benchling Direct Data Share docs: which objects and identifiers are shared
+- Which Pistoia pharma members are public Snowflake customers
+
 **Competitive landscape**
 - MAIN5 (consultant on the BI / Accurids EMA PMS award): profile and positioning
 - Accurids blog: [From Global Compliance Mandate to Strategic Asset](https://accurids.com/blog/from-global-compliance-mandate-to-strategic-asset): read their exact pitch

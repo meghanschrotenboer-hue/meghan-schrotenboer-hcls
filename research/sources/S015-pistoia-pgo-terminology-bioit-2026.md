@@ -12,7 +12,7 @@ value_chain: [discovery, clinical, regulatory-cmc, manufacturing-supply, commerc
 intention_matrix: [automate-optimize]
 stack_layer: [data-semantics, governance-trust]
 players: [consortium, buyer, services, frontier-labs]
-themes: [T1, T5, T7]
+themes: [T1, T5, T7, T9]
 signal: high
 ---
 

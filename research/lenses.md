@@ -63,7 +63,7 @@ The early hypothesis worth testing: in HCLS, PMF is gated **above** and **below*
 
 Whose strategy does this source inform most?
 
-`services` (SIs, consultancies, boutiques) · `frontier-labs` (model builders and their enterprise/vertical arms) · `isv` (vertical software) · `consortium` (Pistoia, CDISC, HL7, etc.) · `buyer` (pharma, provider, payer)
+`services` (SIs, consultancies, boutiques) · `frontier-labs` (model builders and their enterprise/vertical arms) · `platform` (data and AI platforms, e.g., Snowflake) · `isv` (vertical software and data vendors) · `consortium` (Pistoia, CDISC, HL7, etc.) · `buyer` (pharma, provider, payer)
 
 ---
 
