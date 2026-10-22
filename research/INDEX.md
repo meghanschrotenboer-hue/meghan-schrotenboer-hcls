@@ -18,17 +18,27 @@
 | [S012](sources/S012-fair-cookbook.md) | The FAIR Cookbook + Dataset Maturity Model recipe (FCB081) | ELIXIR / FAIRplus (IMI) | 2026-07-12 | standard | discovery, clinical, cross-cutting | automate-optimize | data-semantics, governance-trust | T1, T3, T5, T6 | medium | ✅ |
 | [S013](sources/S013-fair-implementation-profiles-life-science.md) | FAIR Implementation Profiles: Life Science domain; Dublin Core as semantic model | FAIR Implementation Space (Nanodash) | 2026-10-22 | dataset | discovery, cross-cutting | n/a | data-semantics | T1, T5, T7 | low | ◐ |
 | [S014](sources/S014-accurids.md) | Accurids (potential competitor) | Accurids GmbH | 2026-10-22‡ | report | regulatory-cmc, manufacturing-supply | automate-optimize | data-semantics, governance-trust, commercial-model | T1, T4, T5, T7 | high | ◐ |
+| [S015](sources/S015-pistoia-pgo-terminology-bioit-2026.md) | PGO-Terminology: semantic backbone for FAIR and AI-ready knowledge graphs (Bio-IT World deck) | Pistoia Alliance | 2026-05 | conference | discovery, clinical, regulatory-cmc, manufacturing-supply, commercial-medical, cross-cutting | automate-optimize | data-semantics, governance-trust | T1, T5, T7 | high | ✅ |
+| [S016](sources/S016-bcbs-239-risk-data-aggregation.md) | BCBS 239: Principles for effective risk data aggregation and risk reporting (cross-industry analog) | Basel Committee on Banking Supervision | 2013-01 | standard | cross-cutting | n/a | data-semantics, governance-trust | T1, T4, T6, T8 | medium | ✅ |
+| [S017](sources/S017-pistoia-ai-adoption-clinical-trials-poll.md) | AI Adoption in Clinical Trials poll (CTTC London) | Pistoia Alliance | 2026-06-01 | report | clinical | augment-optimize, augment-satisfice | governance-trust, workflow-ux, data-semantics | T1, T2, T3, T8 | medium | ◐ |
+| [S018](sources/S018-pistoia-london-2026-conference-poll.md) | London 2026 conference poll: AI platforms, metrics, data quality | Pistoia Alliance · Thoughtworks | 2026-04 | report | discovery, regulatory-cmc, cross-cutting | n/a | governance-trust, data-semantics, commercial-model | T1, T4, T5, T6, T8 | high | ◐ |
+| [S019](sources/S019-hcls-data-customer-journey-brief.md) | HCLS data customer journey brief (your GPT research seed; 10 cases) | Your brief | 2026-10-22 | report | provider, manufacturing-supply, discovery, clinical, commercial-medical, cross-cutting | augment-optimize, automate-optimize | data-semantics, governance-trust, workflow-ux, commercial-model | T1, T2, T3, T6, T8 | medium¶ | ✅ |
 
-\* provisional until full read · † read via the public source repository that feeds the official site · ‡ living page · § workbook analyzed in full; paper abstract only · ⚡ partially contradicts
+\* provisional until full read · † read via the public source repository that feeds the official site · ‡ living page · § workbook analyzed in full; paper abstract only · ⚡ partially contradicts · ¶ AI-generated synthesis; underlying cases not yet verified
 
 ## Coverage snapshot
 
+*Regenerate with `python3 research/tools/coverage.py`.*
+
 | Lens | Coverage so far | Thin spots |
 |---|---|---|
-| Player | services ×11, consortium ×11, buyer ×10, isv ×6, frontier-labs ×5 (all indirect) | **No primary frontier-lab sources** |
-| Value chain | cross-cutting ×9, discovery ×6, clinical ×5, regulatory-cmc ×5, manufacturing-supply ×3, provider ×2, commercial-medical ×2, payer ×1 | **Payer, provider, commercial thin** |
-| Stack layer | governance-trust ×12, data-semantics ×9, workflow-ux ×6, commercial-model ×5, models ×1 | **Models barely covered** |
-| Evidence type | standards/consortium ×9, practitioner articles ×2, empirical dataset + peer-reviewed paper ×1, implementation case ×1, vendor ×1 | **No regulator sources, buyer interviews, or pricing data** |
+| Player | services ×16, buyer ×15, consortium ×14, isv ×7, frontier-labs ×6 (all indirect) | **No primary frontier-lab sources** |
+| Value chain | cross-cutting ×13, discovery ×9, clinical ×8, regulatory-cmc ×7, manufacturing-supply ×5, commercial-medical ×4, provider ×3, payer ×1 | **Payer still a single source** |
+| Stack layer | governance-trust ×17, data-semantics ×14, workflow-ux ×8, commercial-model ×7, models ×1 | **Models barely covered** |
+| Intention matrix | automate-optimize ×10, augment-optimize ×6, automate-satisfice ×4, augment-satisfice ×3 | Satisfice use cases under-documented |
+| Evidence type | report ×8, standard ×5, dataset ×3, article ×2, conference ×1 | **No regulator sources, direct buyer interviews, or pricing data** |
 
 ## Related trackers
 - [competitors.md](competitors.md): competitive landscape (Accurids and others)
+- [analyses/](analyses/): question-driven answers (A001: could evolv contribute to Pistoia as a Snowflake SI?)
+- [briefs/](briefs/): your own research briefs, kept verbatim

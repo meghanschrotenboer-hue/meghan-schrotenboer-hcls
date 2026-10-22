@@ -26,6 +26,9 @@ These are already in the library as partial notes and will be upgraded to full r
 | S011 · "Why do AI projects fail..." (full paper) | link.springer.com | **Upload the PDF** (highest priority: sample sizes and which maturity dimensions matter) |
 | S013 · Nanodash Dublin Core page | nanodash.knowledgepixels.com | *Covered by your PDF export; allowlist only for live browsing* |
 | S014 · Accurids | accurids.com | Allowlist, or paste product pages and case studies |
+| S017 · AI Adoption in Clinical Trials poll | pistoiaalliance.org | **Upload the poll PDF** to confirm the 42% / 48% / 22% figures and sample |
+| S018 · London 2026 conference poll | pistoiaalliance.org | Upload the "London Conference Insights Report – April 2026" |
+| S019 · Brief's 12 underlying sources | various | Verify the ten cases, starting with CHS, Piramal, Aurobindo, Boehringer |
 
 ## Suggested adds to close evidence gaps
 
@@ -41,6 +44,13 @@ These are already in the library as partial notes and will be upgraded to full r
 - **FAIR-Decide:** a FAIR data cost-benefit framework for pharma R&D (2023, [PubMed 36716952](https://pubmed.ncbi.nlm.nih.gov/36716952/)), cited in the FAIR Maturity Matrix lexicon
 - **EDM Association Pharma / Life Sciences Global Data Management Benchmark Report**
 - Pistoia **FAIR Business Value Framework** (referenced as forthcoming in S007)
+
+**For A001 (evolv × Pistoia × Snowflake)**
+- Pistoia [membership overview PDF](https://marketing.pistoiaalliance.org/hubfs/Membership/Pistoia_Alliance_Membership_Overview.pdf): fee tier for services firms
+- Thoughtworks e-book [From pilots to platforms: AI in pharma](https://www.thoughtworks.com/insights/e-books/from-pilots-to-platforms-ai-in-pharma): what a consultancy published off a Pistoia poll
+- [Clinical Operations Ontology](https://pistoiaalliance.org/project/clinical-operations-ontology/) project (CDISC USDM 2.0, TransCelerate DDF, SNOMED CT)
+- PGO-T repository (public GitHub, can be read in full here): [Pistoia-Alliance-PGO](https://github.com/Pistoia-Alliance-Inc/Pistoia-Alliance-PGO) and the [LinkML paper](https://ceur-ws.org/Vol-4196/paper_3.pdf)
+- Snowflake life-sciences announcements (Sanofi, eClinical Solutions) from primary sources
 
 **Competitive landscape**
 - MAIN5 (consultant on the BI / Accurids EMA PMS award): profile and positioning
@@ -59,6 +69,7 @@ These are already in the library as partial notes and will be upgraded to full r
 - Roche deck: [Data First! FAIR principles implementation at Roche (OntoCommons, 2023)](https://ontocommons.eu/sites/default/files/2023-06/Martin%20Romacker_Nick%20Perry_FAIR%20Principles%20implementation%20at%20Roche.pdf)
 
 **Regulators**
+- BCBS 239 supervisory progress reports (did deadline-driven programs stall after 2016?): the cautionary tale for post-EMA PMS
 - EMA PMS / SPOR roadmap: what comes after the June 2026 milestone
 - FDA guidance on AI used to support regulatory decision-making for drugs and biologics
 - SNOMED International guidance (if any) on using SNOMED CT in AI training or retrieval

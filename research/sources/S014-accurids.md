@@ -18,7 +18,7 @@ signal: high                      # direct competitive relevance
 
 # S014 · Accurids (Potential Competitor)
 
-**Why I saved it:** "This potential competitor." *(expand: where you've run into them, or where you expect to)*
+**Why I saved it:** "This potential competitor." Flagged from research; not yet met in deals or at Pistoia (confirmed 2026-10-22). Positioning against them is pre-emptive.
 
 > ⚠️ **Partial read.** accurids.com couldn't be fetched in this environment. Facts below come from search excerpts of Accurids' own pages and third-party profiles. Company claims are self-reported; where sources conflict, both figures are shown.
 

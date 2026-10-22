@@ -11,7 +11,9 @@
 7. **Log your own conversations.** Anonymized discovery-call notes logged as `type: interview` are first-party evidence, the strongest PMF signal you can collect.
 8. **Pressure-test before you publish.** When a hypothesis in [pmf.md](pmf.md) reaches medium confidence, run it through the **WEDGE research skill** (falsification-first) to see whether it survives scrutiny.
 9. **Upload datasets, not just documents.** Spreadsheets like the Pistoia use case collection (S011) can be analyzed directly: counts, cross-tabs, and patterns become evidence you can cite. Raw uploads stay out of the repository; only aggregate findings are saved, with no individual names.
-10. **Watch your coverage, not just your count.** The [INDEX coverage snapshot](INDEX.md#coverage-snapshot) shows where the evidence is thin (today: frontier labs, clinical, payer, models). Use it to steer what you read next.
+10. **Use GPT for discovery, this library for verification.** Your customer journey brief (S019) surfaced great leads. Bring those outputs here: each cited source gets checked, tagged, and linked to themes, and unverified claims stay flagged. Save the prompts you use in `research/prompts/` so you can rerun them by segment (payers, frontier labs, CROs).
+11. **Ask questions, get analyses.** When you have a specific question (like "could evolv contribute to Pistoia as a Snowflake SI?"), the answer goes in `research/analyses/` with evidence for and against, risks, options, and next steps, so it's reusable and shareable.
+12. **Watch your coverage, not just your count.** The [INDEX coverage snapshot](INDEX.md#coverage-snapshot) shows where the evidence is thin (today: frontier labs, clinical, payer, models). Use it to steer what you read next.
 
 ## Unblocking sources
 
