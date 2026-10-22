@@ -12,7 +12,7 @@ value_chain: [cross-cutting, discovery, clinical]
 intention_matrix: [automate-optimize, automate-satisfice]
 stack_layer: [data-semantics, governance-trust, commercial-model]
 players: [consortium, buyer, services, frontier-labs]
-themes: [T1, T2, T3, T4, T5, T6, T7]
+themes: [T1, T2, T3, T4, T5, T6, T7, T8]
 signal: high
 ---
 

@@ -63,7 +63,7 @@ signal: high
 - **Paper process:** Quality/CSV sign-off for anything touching regulated data
 - **Identify pain:** duplicate data maintenance; jurisdiction-by-jurisdiction rework
 - **Champion:** the company's IDMP-O / ontology lead
-- **Competition:** RIM platform vendors' native modules; Big Four regulatory practices; in-house
+- **Competition:** IDMP-specialist software (e.g., **Accurids**, the IDMP-O maintainer: see [S014](S014-accurids.md)); boutique regulatory-data consultancies (e.g., MAIN5); RIM platform vendors' native modules; Big Four regulatory practices; in-house
 
 ## Open questions
 - What exactly did EMA require by June 2026, and what's next on the PMS roadmap (the next forcing function)? **[verify with EMA sources]**

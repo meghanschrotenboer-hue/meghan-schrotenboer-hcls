@@ -23,6 +23,9 @@ These are already in the library as partial notes and will be upgraded to full r
 | S008 · SNOMED CT on BioPortal | bioportal.bioontology.org | Allowlist, or paste the summary page |
 | S009 · EDM Association resources | edmcouncil.org | Allowlist, or upload specific resources (e.g., the Pharma/Life Sciences benchmark report) |
 | S010 · FAIR data by design (Roche) | fairtoolkit.pistoiaalliance.org | Paste the case text, or allowlist |
+| S011 · "Why do AI projects fail..." (full paper) | link.springer.com | **Upload the PDF** (highest priority: sample sizes and which maturity dimensions matter) |
+| S013 · Nanodash Dublin Core page | nanodash.knowledgepixels.com | *Covered by your PDF export; allowlist only for live browsing* |
+| S014 · Accurids | accurids.com | Allowlist, or paste product pages and case studies |
 
 ## Suggested adds to close evidence gaps
 
@@ -33,11 +36,21 @@ These are already in the library as partial notes and will be upgraded to full r
 - Lab partner and SI alliance announcements naming HCLS delivery partners
 
 **Independent and outcome evidence (counters proponent bias)**
+- **Full text of the S011 paper** (Makarov et al., J Comput Aided Mol Des, Aug 2026): methodology, sample sizes, maturity dimensions
+- Pistoia **NLP and LLM Use Case Database, public version** (Confluence, updated June 2026): may include LLM-era cases
 - **FAIR-Decide:** a FAIR data cost-benefit framework for pharma R&D (2023, [PubMed 36716952](https://pubmed.ncbi.nlm.nih.gov/36716952/)), cited in the FAIR Maturity Matrix lexicon
 - **EDM Association Pharma / Life Sciences Global Data Management Benchmark Report**
 - Pistoia **FAIR Business Value Framework** (referenced as forthcoming in S007)
 
+**Competitive landscape**
+- MAIN5 (consultant on the BI / Accurids EMA PMS award): profile and positioning
+- Accurids blog: [From Global Compliance Mandate to Strategic Asset](https://accurids.com/blog/from-global-compliance-mandate-to-strategic-asset): read their exact pitch
+- FAIR and knowledge-graph specialists (e.g., The Hyve, Ontoforce): profiles
+
 **Standards and consortia**
+- Pistoia **Pharma General Ontology (PGO)** use cases ([resource](https://pistoiaalliance.org/resource-library/pharma-general-ontology-use-cases/); [docs](https://pistoia-alliance-inc.github.io/Pistoia-Alliance-PGO/))
+- Pistoia **Large Language Models in Life Sciences** project
+- **FAIRplus Dataset Maturity Model** detail site (pairs with S012)
 - Pistoia Alliance **agentic AI standards initiative** (announced Sept 2025, per search)
 - Pistoia **Lab of the Future** report (AI as top planned technology investment)
 - **UXLS 2026 conference** outputs: "How AI Is Redefining User Experience in Life Sciences," Oct 20–21, 2026

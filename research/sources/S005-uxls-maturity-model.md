@@ -12,7 +12,7 @@ value_chain: [cross-cutting]
 intention_matrix: []
 stack_layer: [workflow-ux, governance-trust]
 players: [consortium, buyer, services]
-themes: [T2, T5, T6]
+themes: [T2, T5, T6, T8]
 signal: medium
 ---
 

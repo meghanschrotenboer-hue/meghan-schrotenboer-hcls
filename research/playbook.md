@@ -10,7 +10,8 @@
 6. **Run a weekly 15-minute "refresh themes."** Ask Claude to re-read all notes, update the heatmap and confidence levels, and flag any theme resting on a single source as fragile.
 7. **Log your own conversations.** Anonymized discovery-call notes logged as `type: interview` are first-party evidence, the strongest PMF signal you can collect.
 8. **Pressure-test before you publish.** When a hypothesis in [pmf.md](pmf.md) reaches medium confidence, run it through the **WEDGE research skill** (falsification-first) to see whether it survives scrutiny.
-9. **Watch your coverage, not just your count.** The [INDEX coverage snapshot](INDEX.md#coverage-snapshot) shows where the evidence is thin (today: frontier labs, clinical, payer, models). Use it to steer what you read next.
+9. **Upload datasets, not just documents.** Spreadsheets like the Pistoia use case collection (S011) can be analyzed directly: counts, cross-tabs, and patterns become evidence you can cite. Raw uploads stay out of the repository; only aggregate findings are saved, with no individual names.
+10. **Watch your coverage, not just your count.** The [INDEX coverage snapshot](INDEX.md#coverage-snapshot) shows where the evidence is thin (today: frontier labs, clinical, payer, models). Use it to steer what you read next.
 
 ## Unblocking sources
 
@@ -31,6 +32,8 @@ This cloud environment's network policy currently blocks most research sites (so
 | **7. Two cuts, one evidence base** | The same research packaged twice: a services cut (offers, ICP, MEDPICC) and a frontier-lab cut (where labs need partners) | Internal strategy and external partnership pitches |
 | **8. The standards stack** | One layered diagram: FAIR principles → maturity models (FAIR MM, DCAM, UXLS) → semantic standards (IDMP-O, SNOMED CT) → implementations (Roche RDP) → AI (agents, Intention Matrix). Shows where each offer and each partner sits | Explaining "why data before AI" in one picture |
 | **9. Junkyard → online store** | Borrow the FAIR Maturity Matrix's marketplace metaphor (junkyard, flea market, street market, local market, hypermarket, online store) and overlay what AI each level can support | Executive storytelling; memorable and buyer-built |
-| **10. Living dashboard** | A private web page that reads the notes' tags and redraws the heatmap and matrix as you add sources | Ongoing use; sharing a link instead of a deck |
+| **10. "Maturity beats models"** | One evidence chart from S011: maturity and business success by project area, with the paper's headline finding. It's the single most persuasive slide in the library so far | Opening a CDO or head-of-AI conversation |
+| **11. Competitive map** | Players from [competitors.md](competitors.md) on two axes: software ↔ services and compliance-led ↔ AI-led, showing the open position | Internal positioning; partner strategy |
+| **12. Living dashboard** | A private web page that reads the notes' tags and redraws the heatmap and matrix as you add sources | Ongoing use; sharing a link instead of a deck |
 
 *For anything presented under the evolv name, apply the evolv brand standards when producing the final version.*

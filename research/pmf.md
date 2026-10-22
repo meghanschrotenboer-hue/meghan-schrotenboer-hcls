@@ -1,6 +1,6 @@
 # Product-Market Fit Canvas: AI in HCLS
 
-*Two vantage points on one market: **services firms** and **frontier labs**, and the seam between them. v0.2 · 2026-10-22 · 10 sources*
+*Two vantage points on one market: **services firms** and **frontier labs**, and the seam between them. v0.3 · 2026-10-22 · 14 sources*
 
 Every hypothesis below links to evidence in [sources/](sources/) and names what would kill it. Confidence moves only when evidence moves.
 
@@ -21,6 +21,7 @@ Every hypothesis below links to evidence in [sources/](sources/) and names what 
 | Readiness assumed, not measured | UX and data maturity assessed against buyer-built models | **AI-readiness assessment (UXLS × FAIR MM × DCAM)** (S005, S007, S009) |
 | FAIR treated as data hygiene; retrospective FAIRification per project | Data FAIR by design; investment matched to intention quadrant ("FAIR Enough") | **Agent-ready data review + FAIR-by-design intake** (S007, S010) |
 | Clinical and product terminology mapped by hand | AI-assisted mapping to SNOMED CT / IDMP-O with rule-based validation | **Terminology and ontology mapping accelerators** (S002, S008) |
+| 57% of AI projects can't state their business outcome; PoCs stall before production | Value defined at intake; stage-gated path to production with trust controls | **AI value realization office + project maturity framework** (S011, S007) |
 
 ### Hypotheses
 
@@ -28,7 +29,10 @@ Every hypothesis below links to evidence in [sources/](sources/) and names what 
 |---|---|---|---|---|---|
 | **H1** | HCLS buyers buy AI-readiness work faster when it's framed through **buyer-built standards** (IDMP-O, UXLS, FAIR) than through generic "AI strategy." | S002, S003, S005, S007, S009, S010 | Buyer interviews; RFP language; win/loss notes | Buyers don't recognize or value the standards | Low–Med (more supply-side evidence; still no buyer voice) |
 | **H2** | The highest-value services work sits in the **optimize** quadrants (validation, rules, escalation design), not in satisfice-quadrant deployment. | S004, S006, S002 | Deal sizes by use-case type; rate cards | Optimize-quadrant work gets absorbed by product vendors | Low–Med |
-| **H3** | Post–EMA PMS deadline (June 2026), pharma data and regulatory leaders are open to a **compliance-to-value** reuse pitch over the next 2–4 quarters. | S003, S007 (value ladder), S010 | EMA PMS roadmap; conversations with IDMP-O adopters | IDMP budgets closed at the deadline | Low |
+| **H3** | Post–EMA PMS deadline (June 2026), pharma data and regulatory leaders are open to a **compliance-to-value** reuse pitch over the next 2–4 quarters. **Update:** a competitor (S014) already markets this pitch, so it must extend to AI readiness and measurable value to differentiate. | S003, S007 (value ladder), S010, S011 (regulatory projects most mature), S014 | EMA PMS roadmap; conversations with IDMP-O adopters | IDMP budgets closed at the deadline; or software vendors capture the reuse budget | Low–Med |
+| **H9** *(new)* | Services that raise **project and organizational maturity** (stakeholder alignment, change management, governance, value tracking) improve AI success rates more than better models or data sources do, and buyers will pay for it once shown the evidence. | **S011 (peer-reviewed, statistical)**, S007, S012, S005 | Win rates when leading with maturity; client before/after success rates | LLM-era data shows model capability now dominates outcomes | Medium |
+| **H10** *(new)* | Pharma AI teams **default to building** (35 build vs. 5 buy in S011). The services opportunity is **build partner + reusable accelerators**, not reselling packaged AI applications. | S011 | LLM-era build/buy mix; procurement patterns for genAI platforms | LLM era flips toward buying platforms and applications | Low–Med |
+| **H11** *(new)* | An **AI value realization office** (value hypotheses at intake, KPIs, benefits tracking, kill/scale decisions) is a sellable standalone offer, because over half of pharma AI projects can't state their business outcome. | S011, S007, S005 | Buyer interest; RFPs mentioning value tracking | Buyers see value tracking as internal PMO work, not a purchase | Low–Med |
 | **H7** *(new)* | **"Agent-ready data"** is a more fundable frame for FAIR work than FAIR itself. Pharma CDOs will approve FAIR investment framed as an agentic-AI prerequisite faster than as data hygiene. | S007 (AI agent persona, business value ladder), S010 | CDO conversations; budget line language; RFPs mentioning agents + FAIR | CDOs treat agents and FAIR as separate budgets | Low–Med |
 
 ---
@@ -50,7 +54,7 @@ Every hypothesis below links to evidence in [sources/](sources/) and names what 
 
 | # | Hypothesis | Evidence for | Evidence needed | Kill signal | Confidence |
 |---|---|---|---|---|---|
-| **H4** | Labs win HCLS enterprise when they ship **standards-aligned grounding + confidence/escalation primitives** and rely on partners for validation and workflow. | S002, S004, S006, S007, S008 (indirect) | Lab HCLS launches; partner program terms; customer case studies | Labs win large HCLS deals direct with no partner layer | Low |
+| **H4** | Labs win HCLS enterprise when they ship **standards-aligned grounding + confidence/escalation primitives + trust tooling** (reproducibility, explainability, governance) and rely on partners for validation, workflow, and maturity work. | S002, S004, S006, S007, S008, S011 (trust is the named adoption limiter; maturity > model) | Lab HCLS launches; partner program terms; customer case studies | Labs win large HCLS deals direct with no partner layer | Low–Med |
 | **H8** *(new)* | Lab agent adoption in pharma is **gated by customer data interoperability (FAIR L4)**, which most organizations haven't reached. Labs that invest in partner-delivered "agent-ready data" programs will expand faster than those selling agents alone. | S007 (interoperability typically at L4; agent persona failure modes) | Lab deployment data; partner program design; customer FAIR maturity distribution | Agents scale on retrieval over non-FAIR data | Low |
 | **H5** | **Satisfice-quadrant** HCLS workloads commoditize fast; lab differentiation concentrates in **optimize-quadrant** work where reasoning quality and trust matter. | S004 | Pricing trends; usage mix data | Satisfice workloads remain the main revenue driver at premium prices | Low |
 
@@ -79,3 +83,5 @@ Use these where the research supports a right-to-win claim:
 - **Scope data like you scope AI:** "FAIR Enough" for satisfice use cases, deep interoperability only where automation needs it. (S004, S007)
 - **Make escalation visible:** an agent journey map is a governance artifact quality teams can sign. (S006)
 - **Sell the edges, not the model:** governed meaning below, designed role above. (themes.md, "the big idea")
+- **Cite the evidence that maturity beats models:** peer-reviewed, multi-year Pistoia analysis; project maturity was the strongest predictor of business success. (S011)
+- **Differentiate from IDMP software:** they sell compliance-to-asset; you sell AI readiness, adoption, and measured value on the client's own platform. (S014, [competitors.md](competitors.md))
