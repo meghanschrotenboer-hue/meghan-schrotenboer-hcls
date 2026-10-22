@@ -2,7 +2,7 @@
 
 A living evidence base for one question: **where is AI finding product-market fit in healthcare and life sciences, and what does that mean for services firms and frontier labs?**
 
-*Started 2026-10-22 · 6 sources · 6 emerging themes*
+*Started 2026-10-22 · 10 sources · 7 emerging themes*
 
 ## Start here
 
@@ -12,6 +12,7 @@ A living evidence base for one question: **where is AI finding product-market fi
 | [pmf.md](pmf.md) | **The PMF canvas.** JTBD, current/future/gap, and testable hypotheses for services, frontier labs, and the seam between them |
 | [INDEX.md](INDEX.md) | **The source register.** Every source, tagged, plus a coverage snapshot |
 | [lenses.md](lenses.md) | **The tagging system.** AI Intention Matrix, value chain, stack layer, player, buyer/JTBD |
+| [glossary.md](glossary.md) | **Plain-English definitions.** FAIR, ontology, SNOMED CT, IDMP, SHACL, DCAM, and more |
 | [inbox.md](inbox.md) | **The drop zone.** New links, blocked sources, and suggested adds |
 | [playbook.md](playbook.md) | **How to work faster** and **ways to present** the findings |
 | [sources/](sources/) | One note per source, built from [_TEMPLATE.md](sources/_TEMPLATE.md) |

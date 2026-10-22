@@ -12,7 +12,7 @@ value_chain: [regulatory-cmc, manufacturing-supply]
 intention_matrix: [automate-optimize]
 stack_layer: [data-semantics, governance-trust]
 players: [consortium, buyer, isv, services]
-themes: [T1, T3, T4, T5]
+themes: [T1, T3, T4, T5, T7]
 signal: high
 ---
 
@@ -96,3 +96,8 @@ signal: high
 ## Related
 - [S003 · IDMP-O Information Sheet and June 2026 announcement](S003-pistoia-idmp-o-info-sheet.md)
 - [S004 · AI Intention Matrix](S004-ai-intention-matrix.md): rule-based acceptance enables automate + optimize
+- [S007 · FAIR Maturity Matrix](S007-fair-maturity-matrix.md): IDMP-O is a "vocabulary that follows FAIR principles" (I2); interoperability typically arrives at L4
+- [S008 · SNOMED CT](S008-snomed-ct-bioportal.md): the clinical-data counterpart to IDMP-O's product data
+- [S009 · EDM Association](S009-edm-association-resources.md): now owns OMG, whose Commons library IDMP-O imports and whose PAS process is IDMP-O's ISO path
+
+*Re-shared 2026-10-22 alongside the FAIR, SNOMED CT, and EDM sources. Read as part of the semantic-standards cluster (T1, T7).*

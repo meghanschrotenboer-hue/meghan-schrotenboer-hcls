@@ -19,6 +19,10 @@ These are already in the library as partial notes and will be upgraded to full r
 | S004 · AI Intention Matrix | uxdesign.cc | Paste article text, or allowlist |
 | S005 · UXLS Maturity Model | pistoiaalliance.org | Upload the model, or allowlist |
 | S006 · Journey Mapping for AI Agents | medium.com | Paste article text, or allowlist (uxmatters.com hosts a copy) |
+| S007 · FAIR Maturity Matrix (official site + Confluence) | pistoiaalliance.github.io, pistoiaalliance.atlassian.net | *Read in full via the public source repo; allowlist only to confirm the AI agent persona is on the official site* |
+| S008 · SNOMED CT on BioPortal | bioportal.bioontology.org | Allowlist, or paste the summary page |
+| S009 · EDM Association resources | edmcouncil.org | Allowlist, or upload specific resources (e.g., the Pharma/Life Sciences benchmark report) |
+| S010 · FAIR data by design (Roche) | fairtoolkit.pistoiaalliance.org | Paste the case text, or allowlist |
 
 ## Suggested adds to close evidence gaps
 
@@ -28,16 +32,23 @@ These are already in the library as partial notes and will be upgraded to full r
 - Frontier lab vertical launches for HCLS (e.g., Anthropic's life sciences and healthcare offerings; OpenAI's healthcare offerings; Google's health AI models and research agents): product pages, partner lists, named customers
 - Lab partner and SI alliance announcements naming HCLS delivery partners
 
+**Independent and outcome evidence (counters proponent bias)**
+- **FAIR-Decide:** a FAIR data cost-benefit framework for pharma R&D (2023, [PubMed 36716952](https://pubmed.ncbi.nlm.nih.gov/36716952/)), cited in the FAIR Maturity Matrix lexicon
+- **EDM Association Pharma / Life Sciences Global Data Management Benchmark Report**
+- Pistoia **FAIR Business Value Framework** (referenced as forthcoming in S007)
+
 **Standards and consortia**
-- Pistoia Alliance **FAIR Maturity Matrix** (pairs with S005 for an AI-readiness 2×2)
 - Pistoia Alliance **agentic AI standards initiative** (announced Sept 2025, per search)
 - Pistoia **Lab of the Future** report (AI as top planned technology investment)
 - **UXLS 2026 conference** outputs: "How AI Is Redefining User Experience in Life Sciences," Oct 20–21, 2026
 - Pistoia event: "Navigating the New IDMP Era: Data Quality, Ontologies, and AI-Powered Compliance"
+- Pistoia blog: [Is Your Organization a Data Junkyard or a Data Marketplace?](https://pistoiaalliance.org/blog/from-junkyard-to-data-marketplace/)
+- Roche deck: [Data First! FAIR principles implementation at Roche (OntoCommons, 2023)](https://ontocommons.eu/sites/default/files/2023-06/Martin%20Romacker_Nick%20Perry_FAIR%20Principles%20implementation%20at%20Roche.pdf)
 
 **Regulators**
 - EMA PMS / SPOR roadmap: what comes after the June 2026 milestone
 - FDA guidance on AI used to support regulatory decision-making for drugs and biologics
+- SNOMED International guidance (if any) on using SNOMED CT in AI training or retrieval
 
 **Provider and payer**
 - Health system AI adoption surveys (e.g., venture or analyst "state of AI in healthcare" reports)

@@ -24,6 +24,8 @@ Satisficing is Herbert Simon's decision-theory term (satisfy + suffice): stop se
 | **Automate + Optimize** · *Autonomous precision* | "Do it exactly right, every time, and prove it." | IDMP/SPOR data normalization, controlled-vocabulary mapping, batch genealogy reconciliation | **Joint.** Needs machine-checkable rules (ontologies, SHACL, competency questions) before anyone trusts it |
 | **Automate + Satisfice** · *Autonomous utility* | "Just handle it; I'll spot-check." | Document classification and routing, metadata enrichment, transcription cleanup, de-duplication | **Product-led.** Low services margin unless bundled |
 
+> **Data nuance (from [S007](sources/S007-fair-maturity-matrix.md)):** the FAIR Maturity Matrix applies the same idea to data with **"FAIR Enough"**: not all data needs to be fully FAIR. Match data investment to the quadrant. *Satisfice* quadrants rarely justify deep interoperability work; *automate + optimize* almost always needs it.
+
 > **Regulated-industry nuance:** in GxP and clinical settings, "satisficing" never means sloppy. "Good enough" has to be a *documented acceptance threshold tied to intended use*. That threshold is itself a deliverable, and often a services deliverable.
 
 > **Runtime nuance (from [S006](sources/S006-journey-mapping-ai-agents.md)):** the quadrant isn't always fixed per use case. An agent can run in *automate* mode until confidence or risk crosses a threshold, then escalate to a human, which moves that one decision into *augment* mode. Escalation rules are where the quadrant boundary actually lives.
