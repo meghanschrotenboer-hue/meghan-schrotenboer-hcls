@@ -26,6 +26,8 @@
 | [S020](sources/S020-benchling-snowflake-direct-data-share.md) | Benchling Direct Data Share with Snowflake (+ AI Connectors) | Benchling | 2026-10-15 | press | discovery | automate-satisfice | data-semantics, models | T1, T7, T9 | high | ◐ |
 | [S021](sources/S021-snowflake-semantic-views-osi-ontology.md) | Snowflake Semantic Views, Open Semantic Interchange, ontology-grounded Cortex agents | Snowflake; third-party coverage | 2026 | article | cross-cutting | augment-optimize, automate-optimize | data-semantics, models | T1, T7, T9 | high | ◐ |
 | [S022](sources/S022-snowflake-hcls-partner-ecosystem.md) | Snowflake HCLS partner ecosystem vs. Pistoia participants (Accenture, Cognizant, ZS, IQVIA, Benchling) | Snowflake awards; IQVIA; partner pages | 2026 | report | cross-cutting, commercial-medical, discovery | n/a | commercial-model | T5, T9 | high | ◐ |
+| [S023](sources/S023-snowflake-anthropic-partnership.md) | Snowflake × Anthropic $200M agentic AI partnership (Claude in Cortex, Snowflake Intelligence) | Snowflake / Anthropic | 2025-12-03 | press | cross-cutting | augment-optimize, augment-satisfice | models, commercial-model | T9 | high | ◐ |
+| [S024](sources/S024-cms-interoperability-prior-auth-rule.md) | CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F): payer APIs by Jan 2027 | CMS | 2024-01-17 | standard | payer, provider | automate-optimize, augment-optimize | data-semantics, governance-trust | T4 | medium | ◐ |
 
 \* provisional until full read · † read via the public source repository that feeds the official site · ‡ living page · § workbook analyzed in full; paper abstract only · ⚡ partially contradicts · ¶ AI-generated synthesis; underlying cases not yet verified
 
@@ -35,13 +37,13 @@
 
 | Lens | Coverage so far | Thin spots |
 |---|---|---|
-| Player | services ×17, consortium ×16, buyer ×15, isv ×10, frontier-labs ×6 (all indirect), platform ×3 | **No primary frontier-lab sources** |
-| Value chain | cross-cutting ×15, discovery ×11, clinical ×8, regulatory-cmc ×7, manufacturing-supply ×5, commercial-medical ×5, provider ×3, payer ×1 | **Payer still a single source** |
-| Stack layer | governance-trust ×17, data-semantics ×16, workflow-ux ×8, commercial-model ×8, models ×3 | Models thin |
-| Intention matrix | automate-optimize ×11, augment-optimize ×7, automate-satisfice ×5, augment-satisfice ×3 | Satisfice use cases under-documented |
-| Evidence type | report ×9, standard ×5, dataset ×3, article ×3, conference ×1, press ×1 | **No regulator sources, direct buyer interviews, or pricing data** |
+| Player | services ×17, consortium ×16, buyer ×16, isv ×10, frontier-labs ×7, platform ×4 | **Frontier labs: one primary source (S023)** |
+| Value chain | cross-cutting ×16, discovery ×11, clinical ×8, regulatory-cmc ×7, manufacturing-supply ×5, commercial-medical ×5, provider ×4, payer ×2 | **Payer and provider still thin** |
+| Stack layer | governance-trust ×18, data-semantics ×17, workflow-ux ×8, commercial-model ×9, models ×4 | Models thin |
+| Intention matrix | automate-optimize ×12, augment-optimize ×9, automate-satisfice ×5, augment-satisfice ×4 | Satisfice use cases under-documented |
+| Evidence type | report ×9, standard ×6, dataset ×3, article ×3, press ×2, conference ×1 | **No buyer interviews, evolv evidence, or pricing data** (see [A003](analyses/A003-thesis-gap-audit.md)) |
 
 ## Related trackers
 - [competitors.md](competitors.md): competitive landscape (Accurids and others)
-- [analyses/](analyses/): question-driven answers (A001: could evolv contribute to Pistoia as a Snowflake SI? · A002: is Pistoia mutually exclusive from the Snowflake and SI world?)
+- [analyses/](analyses/): question-driven answers (A001: could evolv contribute to Pistoia as a Snowflake SI? · A002: is Pistoia mutually exclusive from the Snowflake and SI world? · A003: thesis gap audit)
 - [briefs/](briefs/): your own research briefs, kept verbatim

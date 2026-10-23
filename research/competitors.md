@@ -1,6 +1,6 @@
 # Competitive Landscape
 
-*Who else is selling into the problems this research surfaces. One row per player; deep dives live in source notes. v0.3 · 2026-10-22*
+*Who else is selling into the problems this research surfaces. One row per player; deep dives live in source notes. v0.4 · 2026-10-23*
 
 **How to read it:** "Relationship" is from a services-firm point of view: **compete**, **partner**, or **coopetition** (both, depending on the deal).
 
@@ -16,6 +16,8 @@
 | **IQVIA (DaaS+)** | Data + services | Commercial data foundation: industry data model, global product mastering, reporting across 59 countries (Boehringer Ingelheim). OneKey delivered via Snowflake Marketplace; 2022 Snowflake Marketplace HCLS Partner of the Year ([S022](sources/S022-snowflake-hcls-partner-ecosystem.md)) | Commercial data harmonization, MDM, data products | **Compete** (buy alternative) | [S019](sources/S019-hcls-data-customer-journey-brief.md) **[verify]** |
 | **TetraScience** | ISV | Scientific data platform harmonizing instrument and CRO/CDMO data (Bayer) | R&D scientific data, provenance | Coopetition | [S019](sources/S019-hcls-data-customer-journey-brief.md) **[verify]** |
 | **ERP/HCM platforms** (Oracle, Workday, SAP) | Platform | Back-office consolidation after mergers (CHS, Advocate, Medline) | Provider finance, supply, workforce integration | Partner or neutral; they create the MDM/semantic follow-on need | [S019](sources/S019-hcls-data-customer-journey-brief.md) **[verify]** |
+| **Databricks** (+ ZS) | Platform (+ SI) | Data intelligence platform; ZS is Databricks' Life Sciences Partner of the Year **2025 and 2026**; a ZS–Databricks clinical data hub reported **[unconfirmed]** | The same pharma data and AI workloads as Snowflake | **Platform competitor** to a Snowflake-centered thesis. Answer "why Snowflake?" with account evidence | [ZS 2026](https://www.zs.com/about/newsroom/zs-databricks-life-sciences-award-2026); [A003](analyses/A003-thesis-gap-audit.md) |
+| **Palantir** (Foundry / AIP) | Platform | "The Ontology" as the core product (data, logic, and actions in one model); life-sciences case studies | The exact semantics-plus-action layer the bridge thesis targets | **Compete** (alternative architecture) | [Palantir 10-Q](https://www.sec.gov/Archives/edgar/data/0001321655/000132165526000041/pltr-20260630.htm); [A003](analyses/A003-thesis-gap-audit.md) |
 | **Focus HCS** | Services | Provider data consolidation and reporting models (Pacesetter case) | Provider data integration | **Compete** | [S019](sources/S019-hcls-data-customer-journey-brief.md) **[verify]** |
 
 ## Signals to watch

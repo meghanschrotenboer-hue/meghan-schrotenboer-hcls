@@ -2,7 +2,7 @@
 
 A living evidence base for one question: **where is AI finding product-market fit in healthcare and life sciences, and what does that mean for services firms and frontier labs?**
 
-*Started 2026-10-22 · 22 sources · 9 themes · 2 analyses*
+*Started 2026-10-22 · 24 sources · 9 themes · 3 analyses*
 
 ## Start here
 
@@ -12,7 +12,7 @@ A living evidence base for one question: **where is AI finding product-market fi
 | [pmf.md](pmf.md) | **The PMF canvas.** JTBD, current/future/gap, and testable hypotheses for services, frontier labs, and the seam between them |
 | [INDEX.md](INDEX.md) | **The source register.** Every source, tagged, plus a coverage snapshot |
 | [lenses.md](lenses.md) | **The tagging system.** AI Intention Matrix, value chain, stack layer, player, buyer/JTBD |
-| [analyses/](analyses/) | **Answers to specific questions**, built from the evidence (A001: could evolv contribute to Pistoia as a Snowflake SI? · A002: is Pistoia mutually exclusive from the Snowflake and SI world?) |
+| [analyses/](analyses/) | **Answers to specific questions**, built from the evidence (A001: could evolv contribute to Pistoia as a Snowflake SI? · A002: is Pistoia mutually exclusive from the Snowflake and SI world? · A003: what's missing to strengthen the thesis?) |
 | [briefs/](briefs/) | **Your own research briefs**, kept verbatim (e.g., the GPT customer journey brief) |
 | [prompts/](prompts/) | **Your discovery prompts**, saved so they can be rerun by segment |
 | [competitors.md](competitors.md) | **The competitive landscape.** Who else sells into these problems; compete, partner, or both |

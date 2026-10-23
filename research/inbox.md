@@ -30,6 +30,21 @@ These are already in the library as partial notes and will be upgraded to full r
 | S018 · London 2026 conference poll | pistoiaalliance.org | Upload the "London Conference Insights Report – April 2026" |
 | S019 · Brief's 12 underlying sources | various | Verify the ten cases, starting with CHS, Piramal, Aurobindo, Boehringer |
 
+## Priority gaps (from [A003](analyses/A003-thesis-gap-audit.md))
+
+*Ranked by impact on the thesis's weakest pillars. The top three need conversations and internal material, not web research.*
+
+1. **evolv proof pack:** HCLS case studies and outcomes, Snowflake partner tier and specializations, your Snowflake Intelligence/Cortex demo engine, references
+2. **5–8 buyer conversations** testing demand for the standards-to-platform bridge (log as anonymized `type: interview`)
+3. **Snowflake field input:** HCLS industry and partner team priorities, solution plays, target accounts
+4. **Account overlap map:** Pistoia members ∩ Snowflake HCLS customers ∩ Benchling/IQVIA users ∩ evolv relationships
+5. **Prototype:** PGO-T's 17 concepts in a Snowflake semantic view grounding a Cortex agent
+6. **Provider/payer rebalance:** FHIR, USCDI, OMOP/OHDSI, CMS-0057-F detail ([S024](sources/S024-cms-interoperability-prior-auth-rule.md) started)
+7. **Competitive counterweights:** Databricks in life sciences (ZS), Palantir ontology, Microsoft Fabric
+8. **Economics:** FAIR-Decide, deal sizes, Snowflake partner incentives, AI-driven consumption
+9. **Regulatory AI guidance:** FDA, EMA, EU AI Act health timelines
+10. **Verification debt:** see the table in A003
+
 ## Suggested adds to close evidence gaps
 
 *Suggestions, not yet verified or read. Pull the ones that matter to you.*
